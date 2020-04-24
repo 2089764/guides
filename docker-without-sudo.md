@@ -14,6 +14,8 @@ Optionally change the username to match your preferred user.
 $ sudo gpasswd -a $USER docker
 ```
 
+>  newgrp docker  
+
 ##### 3. Restart the `docker` daemon
 
 ```console
